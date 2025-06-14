@@ -1219,6 +1219,10 @@ section {
 
 
 }
+.font2{
+  font-family: "Inter", sans-serif !important;
+  font-weight: bold !important;
+}
 
 .ft-lw{
   font-weight: 300 !important;
@@ -2707,7 +2711,7 @@ input.btn-line,
   font-size: 50px;
   z-index: 1;
   color: #ffb800;
-  position: absolute;
+  position: relative;
   line-height:110%;
   /* font-weight: 800; */
   /* font-family: "Caprasimo", serif; */
@@ -13821,6 +13825,12 @@ blockquote.q-big .d-quote-by{
 .text-fit-wrapper{
   line-height: -.8em;
   padding-right: 1vw;
+}
+.text-fit-wrapper {
+  max-width: 90vw; /* Prevents it from being wider than viewport */
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
 }
 .text-fit{
   margin-top: 0em;
