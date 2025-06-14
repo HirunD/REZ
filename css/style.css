@@ -1226,6 +1226,9 @@ section {
 .title-font{
   font-family: "Caprasimo", serif!important;
   color: #ffb800 !important;
+  font-size: 40px;
+  font-weight: 300 !important;
+
 }
 .tf-nocol{
   font-family: "Caprasimo", serif!important;
